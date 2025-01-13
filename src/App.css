@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@media (min-width: 768px) {
+  .Hero {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+  }
+  .Hero-Left-Block {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .Hero {
+    display: flex;
+    flex-direction: column;
+  }
+  .Hero-Left-Block {
+    width: 90%;
+  }
+}
+
+.Hero {
+  background-color: #ffffff;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.Hero-Logo {
+  height: 30%;
+  width: 30%;
+  background-color: #61dafb;
+  align-self: center;
+  justify-content: center;
+}
+
+.Support-Logos {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: center;
+  min-height: 30vh;
+}
+
+@media (min-width: 768px) {
+  .About {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+  }
+}
+
+.About {
+  color: black;
+  align-items: center;
+  justify-content: center;
+}
+
+.Container {
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgb(212, 212, 212);
+  width: 80%;
+  margin: 0 auto; 
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.Footer-Container {
+  background-color: #282c34;
+  color: white;
+  min-height: 10vh;
+  display: flex;
+  margin-top: 150px;
+  width: 100%;
+  gap: 150px;
+  padding-left: 50px;
+}
