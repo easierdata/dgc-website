@@ -5,6 +5,7 @@ import Navbar from './components/navbar';
 import Support from './panels/support/support';
 import About from './panels/about';
 import Footer from './components/footer';
+import Contributors from './panels/contibutors';
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
 
       {/* About */}
       <About />
+
+      {/* Contributors */}
+      <Contributors />
 
       {/* Footer */}
       <Footer />
