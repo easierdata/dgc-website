@@ -16,12 +16,11 @@ function App() {
       {/* Landing */}
       <Landing />
 
-      {/* Support */}
-      <Support />
-
-
       {/* About */}
       <About />
+
+      {/* Support */}
+      <Support />
 
       {/* Contributors */}
       <Contributors />

@@ -12,14 +12,14 @@ export default function Contributors(): JSX.Element {
     return (
         <div
             style={{
-                background: `#039876`
+                background: `linear-gradient(0deg, #039876, #fff)`
             }}
             className="py-6 overflow-x-hidden select-none"
         >
             <div className="pb-12">
                 <div className="lg:mx-auto w-full md:mx-[1.5rem]">
-                    <h1 className="text-4xl font-bold text-white text-center">
-                        Attendees
+                    <h1 className="text-4xl font-bold text-black text-center">
+                        Core Team
                     </h1>
                     <div className="md:hidden">
                         <Swiper
