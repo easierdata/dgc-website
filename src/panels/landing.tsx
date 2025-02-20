@@ -16,13 +16,13 @@ export default function Landing(): JSX.Element {
 
                 <div className="sm:visible sm:grid sm:grid-rows-2 md:invisible md:h-0 flex flex-col items-center">
                     <button
-                        className="mt-3 px-6 py-2 drop-shadow-md rounded-3xl bg-[#039876] text-white hover:bg-[#038264]"
+                        className="mt-3 px-6 py-2 drop-shadow-md rounded-3xl bg-sky-700 text-white hover:bg-sky-800"
                         onClick={() => window.open("https://www.astral.global", "_blank")}
                     >
                         Astral
                     </button>
                     <button
-                        className="sm:ml-0 md:ml-3 mt-3 px-6 py-2 rounded-3xl bg-white text-black border border-green-500 font-bold"
+                        className="sm:ml-0 md:ml-3 mt-3 px-6 py-2 rounded-3xl bg-white text-black border border-sky-500 font-bold"
                         onClick={() => window.open("https://easierdata.org", "_blank")}
                     >
                         EASIER
@@ -31,13 +31,13 @@ export default function Landing(): JSX.Element {
 
                 <div className="invisible sm:invisible sm:h-0 md:visible">
                     <button
-                        className="mt-3 px-6 py-2 drop-shadow-md rounded-3xl bg-[#039876] text-white hover:bg-[#038264]"
+                        className="mt-3 px-6 py-2 drop-shadow-md rounded-3xl bg-sky-700 text-white hover:bg-sky-800"
                         onClick={() => window.open("https://www.astral.global", "_blank")}
                     >
                         Astral
                     </button>
                     <button
-                        className="sm:ml-0 md:ml-3 mt-3 px-6 py-2 rounded-3xl bg-white text-black border border-green-500 font-bold hover:bg-gray-200"
+                        className="sm:ml-0 md:ml-3 mt-3 px-6 py-2 rounded-3xl bg-white text-black border border-sky-500 font-bold hover:bg-gray-200"
                         onClick={() => window.open("https://easierdata.org", "_blank")}
                     >
                         EASIER

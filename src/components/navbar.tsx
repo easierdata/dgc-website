@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import logo from '../assets/logos/logo.png';
+import logo from '../assets/logo.jpg';
 import { Link } from 'react-scroll';
 
 export default function Navbar(): JSX.Element {
@@ -20,7 +20,7 @@ export default function Navbar(): JSX.Element {
             <img 
                 src={logo} 
                 alt="logo" 
-                className='h-20'
+                className='h-20 rounded-full'
             />
 
             <ul className='hidden md:flex'>
@@ -30,7 +30,7 @@ export default function Navbar(): JSX.Element {
                     >
                         {/* @ts-ignore */}
                         <Link activeClass={link.to} smooth spy to={link.to}
-                            className='p-4 hover:bg-[#039876] hover:text-white rounded-xl m-2 cursor-pointer duration-300 hover:text-black text-gray-500 font-bold hover:no-underline'
+                            className='p-4 hover:bg-sky-700 hover:text-white rounded-xl m-2 cursor-pointer duration-300 hover:text-black text-gray-500 font-bold hover:no-underline'
                         >
                             {link.label}
                         </Link>
@@ -58,7 +58,7 @@ export default function Navbar(): JSX.Element {
                 {links.map(link => (
                     <li
                         key={link.id}
-                        className='p-4 rounded-xl hover:bg-[#039876] duration-300 hover:text-white cursor-pointer border-gray-600'
+                        className='p-4 rounded-xl hover:bg-sky-700 duration-300 hover:text-white cursor-pointer border-gray-600'
                     >
                         {/* @ts-ignore */}
                         <Link activeClass={link.to} smooth spy to={link.to} onClick={() => toggle()}>

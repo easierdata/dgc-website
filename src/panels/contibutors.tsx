@@ -12,7 +12,7 @@ export default function Contributors(): JSX.Element {
     return (
         <div
             style={{
-                background: `linear-gradient(0deg, #039876, #fff)`
+                background: `linear-gradient(0deg, #50a2ff, #fff)`
             }}
             className="py-6 overflow-x-hidden select-none"
         >
@@ -79,9 +79,6 @@ export default function Contributors(): JSX.Element {
                                             <h1 className='text-2xl font-bold text-center mt-3'>{contributor.name}</h1>
                                             <div className="flex items-center justify-center h-full">
                                                 {contributor.image ? <img src={contributor.image.includes("http") ? contributor.image : `./contributors/${contributor.image}`} alt={contributor.name} className="p-12 h-96 w-auto" /> : null}
-                                            </div>
-                                            <div className="p-4 text-center">
-                                                {contributor.affiliation ? <p className="font-bold text-xl pb-3">{contributor.affiliation}</p> : null}
                                             </div>
                                         </div>
                                     </SwiperSlide>

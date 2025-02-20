@@ -2,7 +2,7 @@ export default function Footer(): JSX.Element {
     return (
         <div
             style={{
-                backgroundColor: `#039876`
+                backgroundColor: `#50a2ff`
             }}
             className="py-6"
         >
