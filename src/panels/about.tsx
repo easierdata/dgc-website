@@ -17,21 +17,15 @@ export default function About(): JSX.Element {
                     <div className="flex justify-center space-x-4 mt-6 mb-6">
                         <button
                             className="px-6 py-2 rounded-3xl bg-white text-black border border-sky-500 font-bold hover:bg-gray-200"
-                            onClick={() => window.open("https://astral.global", "_blank")}
+                            onClick={() => window.open("https://github.com/DecentralizedGeo", "_blank")}
                         >
-                            Astral
+                            GitHub
                         </button>
                         <button
                             className="px-6 py-2 rounded-3xl bg-white text-black border border-sky-500 font-bold hover:bg-gray-200"
                             onClick={() => window.open("https://osf.io/preprints/osf/bg2uq_v1", "_blank")}
                         >
                             Vision Paper
-                        </button>
-                        <button
-                            className="px-6 py-2 rounded-3xl bg-white text-black border border-sky-500 font-bold hover:bg-gray-200"
-                            onClick={() => window.open("https://easierdata.org", "_blank")}
-                        >
-                            EASIER
                         </button>
                     </div>
                 </div>

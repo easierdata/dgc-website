@@ -8,6 +8,7 @@ import Astral from '../../assets/logos/astral.svg'
 import Celo from '../../assets/logos/celo.png'
 import ClimateCollective from '../../assets/logos/climate-collective.gif'
 import Arbitrum from '../../assets/logos/arbitrum.png'
+import OGC from '../../assets/logos/OGC.png'
 
 import styles from './sponsors.module.css';
 
@@ -18,6 +19,7 @@ export default function Support(): JSX.Element {
             <h1 className='text-4xl font-bold select-none'>Collaborating Entities</h1>
             <div className='space-y-6 mt-6 mb-24'>
                 <div className={styles.logos}>
+                    <img src={OGC} alt="logo" className='p-6 md:p-0 mx-auto mt-3 cursor-pointer' onClick={() => window.open("https://www.ogc.org/", "_blank")} />
                     <img src={UMD_GIS} alt="logo" className='p-6 md:p-0 mx-auto mt-3 cursor-pointer' onClick={() => window.open("https://geog.umd.edu/", "_blank")} />
                     <img src={Astral} alt="logo" className='p-6 md:p-3 mx-auto mt-3 cursor-pointer' onClick={() => window.open("https://www.astral.global", "_blank")} />
                 </div>

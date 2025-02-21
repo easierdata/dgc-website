@@ -1,7 +1,7 @@
 export const LandingContent = {
-    "heading": "Decentralized Geospatial Collaborative",
-    "subheading": "The DGC is a collaboration between Astral and UMD's EASIER Data Initiative",
-    "description": "We are dedicated to advancing decentralized geospatial technologies that underpin a more resilient, fair, and safe internet."
+    "heading": "The Decentralized Geospatial Collaborative",
+    "subheading": "Building the decentralized geospatial web and location-based services",
+    "description": "The DGC was initiated as a collaboration between EASIER Data Initiative at the University of Maryland, Astral, and the Cryptoprotocols and Decentralized Systems Domain Working Group within the Open Geospatial Consortium."
 }
 
 export const AboutContent = {
