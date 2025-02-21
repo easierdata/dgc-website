@@ -26,6 +26,12 @@ export const contributors = [
         "affiliation": "The University of Maryland (GEOG)"
     },
     {
+        "name": "Adrien Ramsamy",
+        "image": "adrien.jpeg",
+        "description": "Adrien is a Master's student at the University of Maryland studying Computer Science. He is interested in the interplay between cryptography and geospatial systems. At the EASIER Data Initiative, he leads the development of the Astral Logbook.",
+        "affiliation": "The University of Maryland (GEOG)"
+    },
+    {
         "name": "Matthew Nanas",
         "image": "Matthew_Nanas.jpeg",
         "affiliation": "The University of Maryland (GEOG & IS)"
