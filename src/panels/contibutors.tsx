@@ -46,7 +46,6 @@ export default function Contributors(): JSX.Element {
                                             <h1 className='text-2xl font-bold text-center mt-3'>{contributor.name}</h1>
                                             <div className="flex items-center justify-center flex-col">
                                                 {contributor.image ? <img src={contributor.image.includes("http") ? contributor.image : `./contributors/${contributor.image}`} alt={contributor.name} className="max-h-52 p-3 " /> : null }
-                                                {contributor.affiliation ? <p className="font-bold text-xl pb-3 p-6">{contributor.affiliation}</p> : null }
                                             </div>
                                         </div>
                                     </SwiperSlide>

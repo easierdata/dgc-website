@@ -1,12 +1,13 @@
 import React from "react";
 import { LandingContent } from "../static/content";
 import globe from '../assets/globe.png';
+import group from '../assets/accessories/group.svg';
 
 export default function Landing(): JSX.Element {
 
     return (
-        <div className="h-full grid ml-4 mr-4 md:ml-20 md:mr-20 select-none">
-            <div className="md:mt-20">
+        <div className="h-full grid md:grid-cols-2 ml-4 mr-4 md:ml-20 md:mr-20 select-none">
+            <div className="mt-8 md:mt-20">
                 <h1 className="font-bold text-4xl md:text-6xl">{LandingContent.heading}</h1>
                 <h2 className="mt-4 font-bold text-2xl md:text-3xl">{LandingContent.subheading}</h2>
                 <hr className="mt-4 mb-4"/>
@@ -53,11 +54,12 @@ export default function Landing(): JSX.Element {
                         OGC DWG
                     </button>
                 </div>
-
+            </div>
+            <div>
                 <img 
                     src={globe} 
                     alt="logo" 
-                    className='mt-6 container max-w-screen-sm mx-auto'
+                    className='md:mt-12 md:ml-12 container max-w-screen-sm mx-auto'
                 />
             </div>
         </div>
