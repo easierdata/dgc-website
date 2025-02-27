@@ -6,7 +6,7 @@ export default function Landing(): JSX.Element {
 
     return (
         <div className="h-full grid md:grid-cols-2 ml-4 mr-4 md:ml-20 md:mr-20 select-none">
-            <div className="mt-8 md:mt-20">
+            <div className="flex flex-col justify-center h-full">
                 <h1 className="font-bold text-4xl md:text-6xl">{LandingContent.heading}</h1>
                 <h2 className="mt-4 font-bold text-2xl md:text-3xl">{LandingContent.subheading}</h2>
                 <hr className="mt-4 mb-4"/>
@@ -54,7 +54,7 @@ export default function Landing(): JSX.Element {
                     </button>
                 </div>
             </div>
-            <div>
+            <div className="flex flex-col justify-center h-full">
                 <img 
                     src={globe} 
                     alt="logo" 
