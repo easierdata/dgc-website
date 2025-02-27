@@ -1,7 +1,6 @@
 import React from "react";
 import { LandingContent } from "../static/content";
 import globe from '../assets/globe.png';
-import group from '../assets/accessories/group.svg';
 
 export default function Landing(): JSX.Element {
 
