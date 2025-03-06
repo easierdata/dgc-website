@@ -19,7 +19,7 @@ export default function About(): JSX.Element {
                             className="px-6 py-2 rounded-3xl bg-white text-black border border-sky-500 font-bold hover:bg-gray-200"
                             onClick={() => window.open("https://github.com/DecentralizedGeo", "_blank")}
                         >
-                            GitHub
+                            Code
                         </button>
                         <button
                             className="px-6 py-2 rounded-3xl bg-white text-black border border-sky-500 font-bold hover:bg-gray-200"
