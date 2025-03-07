@@ -48,9 +48,9 @@ export default function Landing(): JSX.Element {
                     </button>
                     <button
                         className="sm:ml-0 md:ml-3 mt-3 px-6 py-2 rounded-3xl text-white bg-sky-700 hover:bg-sky-800"
-                        onClick={() => window.open("https://www.ogc.org/domain-working-groups/", "_blank")}
+                        onClick={() => window.open("https://www.ogc.org/", "_blank")}
                     >
-                        OGC DWG
+                        OGC
                     </button>
                 </div>
             </div>
